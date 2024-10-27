@@ -1,0 +1,131 @@
+/* Basic Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+    background-color:  #001124;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .navbar-logo img {
+    height: 50px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .nav-links {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 500;
+  }
+  .nav-links:hover{
+    color: #015FC7;
+  }
+  .nav-icons {
+    display: flex;
+  }
+  
+  .nav-icon-link {
+    margin-left: 15px;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+/*   
+  /* Media Query for mobile view */
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: block;
+      font-size: 28px;
+      cursor: pointer;
+      color: #015FC7;
+    }
+  
+    .nav-menu {
+      display: none;
+      /* position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      height: calc(100vh - 80px); */
+      /* background: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; */
+      /* transform: translateX(-100%);
+      transition: transform 0.3s ease-in-out;
+      z-index: 1; */
+    }
+  
+    .nav-menu.active {
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #001124;
+      z-index: 5;
+    }
+  
+    .nav-item {
+      margin: 20px 0;
+    }
+  } */
+  .red{
+    font-size: 1.2rem; 
+    font-weight: bold;
+  /* color: #8579f8; */
+  }
+  .Nav-blue-button {
+    background-color: #015FC7;
+    color: white !important;
+    border: none;
+    padding: 8px 26px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 12px;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .Nav-blue-button:hover {
+    background-color: #004EA4;
+  }
+  #nav-btn-color{
+    background-color: #DC143C;
+    &:hover{
+      background-color: #9b0624;
+    }
+  }
+  /* .navbarrrr-logo{
+    mix-blend-mode: multiply; 
+     mix-blend-mode: color;
+    color: #FFFFFF;
+    color: #004EA4;
+  } */

@@ -1,0 +1,263 @@
+
+.SignIn-Main-registration-6543 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #001124;
+    padding: 0 20px 0 0;
+    min-height: 90vh;
+}
+
+.SignIn-svg-wrapper-3124 {
+    flex: 1;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.SignIn-svg-wrapper-3124 img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
+.SignIn-Main-login-9876 {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    max-width: 400px;
+}
+
+.SignIn-login-box-2345 {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    margin: 20px auto;
+    background: #001124;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.SignIn-sign-in-heading-8765 {
+    color: #FFFFFF;
+    font-size: 44px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.SignIn-user-box-6587 {
+    position: relative;
+}
+
+.SignIn-input-wrapper-1254 {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.SignIn-user-box-6587 input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #504f4f8c;
+    outline: none;
+    background: #504f4f8c;
+}
+
+.SignIn-user-box-6587 label {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #FFFFFF;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.SignIn-user-box-6587 input:focus~label,
+.SignIn-user-box-6587 input:valid~label {
+    top: -23px;
+    left: 0;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.SignIn-error-message-2314 {
+    margin-top: -15px;
+    margin-bottom: 20px;
+    color: red;
+    font-size: 0.7rem;
+        display: flex;
+    flex-wrap: wrap;
+}
+
+.SignIn-the-Answer-6743 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.SignIn-login-box-2345 form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 3px;
+    background-color: #015fc7;
+    align-self: center;
+}
+
+.SignIn-login-box-2345 form a:hover {
+    background: #FFFFFF;
+    color: #272727;
+    border-radius: 5px;
+}
+
+.SignIn-login-box-2345 a span {
+    position: absolute;
+    display: block;
+}
+
+.SignIn-login-box-2345 a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #FFFFFF);
+    animation: btn-anim1 1.5s linear infinite;
+}
+
+@keyframes btn-anim1 {
+    0% {
+        left: -100%;
+    }
+
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+
+.SignIn-login-box-2345 a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #FFFFFF);
+    animation: btn-anim2 1.5s linear infinite;
+    animation-delay: 0.375s;
+}
+
+@keyframes btn-anim2 {
+    0% {
+        top: -100%;
+    }
+
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+
+.SignIn-login-box-2345 a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #FFFFFF);
+    animation: btn-anim3 1.5s linear infinite;
+    animation-delay: 0.75s;
+}
+
+@keyframes btn-anim3 {
+    0% {
+        right: -100%;
+    }
+
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+
+.SignIn-login-box-2345 a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #FFFFFF);
+    animation: btn-anim4 1.5s linear infinite;
+    animation-delay: 1.125s;
+}
+
+@keyframes btn-anim4 {
+    0% {
+        bottom: -100%;
+    }
+
+    50%,
+    100% {
+        bottom: 100%;
+    }
+}
+
+.SignIn-a2-3456 {
+    color: #015fc7;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.SignIn-a2-3456:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+.SignIn-login-box-2345 form{
+    display: flex;
+    flex-direction: column;
+}
+
+/* @media (max-width: 900px) {
+        .SignIn-Main-login-9876 {
+          width: 100vw !important;
+        }
+      } */
+
+      
+@media (max-width: 860px) {
+    .SignIn-Main-login-9876 {
+        width: 75%;
+        max-width: 400px;
+    }
+    .SignIn-Main-registration-6543 {
+        flex-direction: column;
+    }
+
+    .SignIn-svg-wrapper-3124 {
+        max-width: 60%;
+    }
+
+    .SignIn-Main-login-9876 {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+@media (max-width: 500px) {
+    .SignIn-svg-wrapper-3124 {
+        max-width: 75%;
+    }
+}
